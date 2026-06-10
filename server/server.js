@@ -14,7 +14,7 @@ const app = express()
 
 
 app.use(cors({
-    origin: [`http://localhost:5173`]
+    origin: [process.env.APPLICATION_URL]
 }))
 app.use(express.json())
 
