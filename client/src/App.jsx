@@ -2,7 +2,7 @@ import React from 'react'
 import Login from './pages/Login.jsx'
 import {Navigate, Route, Routes} from "react-router-dom"
 import BookList from './pages/BookList.jsx'
-import Layouts from './Components/Layouts.jsx'
+import Layouts from './components/Layouts.jsx'
 import MemberList from './pages/MemberList.jsx'
 import MemberForm from './pages/MemberForm.jsx'
 import BookForm from './pages/BookForm.jsx'
